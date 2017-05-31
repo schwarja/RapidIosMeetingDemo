@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DAA4777C44D9DD64ED9D4530A1C37C /* RapidMutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C2A0B75247D7062BEB96C0044B5A4 /* RapidMutations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0988AFA6949AE48A8BEE9BEF8D199BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		11D327AE8B5A702E771510DEFE3B9749 /* RapidAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E7FB3A3039E54ACC627B3772DD73D /* RapidAuthorization.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A9393AA1AFA302222982AF5F3FF7595 /* RapidFetches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F9D4171941115720BE0D21902B6EC /* RapidFetches.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D58F2DFF078420312216B301E3E8CC2 /* RapidSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D398D88A3101A8B44561CD89529FF9 /* RapidSerialization.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2AE2769F3F1DDBB61A7EB242B0583147 /* Rapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF35AE0537C1A5688226A6CBE28139 /* Rapid.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2AF1B7AE812152F76BAD699239706FE9 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C597518511B399DBE8435831CAB1FC /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2B1570CA0717CE56CA1A165756D16085 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6195D2597441D8E5583278927DCD9442 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2E9BB929D5D3C2BBC817FDC356504ED3 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987E2047AC1BB1820B8E4AF148E5BC6 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2FD389DEE4E584FFB0A6E70F6A6B6CF9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55ED23708BEAC765B3ADB07B0C4169 /* Helpers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46C13FD6673E421DA1E1B9188E386AB5 /* RapidSubscriptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99C4322C1437526411C1EA5B75A135 /* RapidSubscriptionHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D17C6E608B18A05BD8F4802B53DFB1E /* RapidSubscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6703B07D234EC3AA3C4EE3368D2379 /* RapidSubscriptions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69F0335607444E152FFEFA8C92BAF264 /* RapidDocumentRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631778EB7356A4366141016DDBC91751 /* RapidDocumentRef.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C367CB8A541CA804E10C9B37377A1C0 /* RapidSubscriptionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7347402292FF8C75AA63DC674A89654 /* RapidSubscriptionEvent.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E33BDD016764DD97F1FC7A2895B39CB /* DictionaryJSONExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A548AEF338D87335111EC5D0104E818 /* DictionaryJSONExtension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72BF868F596250EEF525EF69CA8A1D76 /* RapidServerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2746FD79C6032DA532F48CB0BFCBB74 /* RapidServerEvents.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F09CB9DB720BF513B49738E38B832DA /* RapidQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F495C1B33F3CB4777834B5977946C3 /* RapidQuery.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		83FB0A236379693116EB3C61FD530EFD /* Rapid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8640423E6DE04FFEF7F8BBC086AB59 /* Rapid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A035B4B759F81572F03F4FE4795B1ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A06E3C262CB5EE091DB8E82479B4E712 /* WRO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE3B6F826CADA971C5E61C362DE66C /* WRO.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8458A84788D2B9CCD866AE85F70BFFB /* RapidCollectionRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123EA08884EFB1CC9D386A26D50823A /* RapidCollectionRef.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A948893E25372958D15B3BC05FF4C623 /* RapidSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F817D68ED027F501B0B6AC69244F75F /* RapidSocketManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1613B2DFE58205F84E3767880BF8ABE /* RapidMutationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205E2397637885AAB3CA7112D8B4FC8 /* RapidMutationProtocols.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B2F1FE69F4245D88C4FE2E2E362782B4 /* RapidLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2817C04E173A55C2263885E7FDB14B41 /* RapidLogger.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF675991DF4EE91CE32841E0F3A7BF4E /* Pods-RapidDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5CD6D85BA823B08EB10FB8776052A9 /* Pods-RapidDemo-dummy.m */; };
+		C5E22F37F65121EA30C8615E9243A310 /* RapidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DA3C9E98CB6BEC4CF291A35F21411 /* RapidResponse.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CFD3E705D876D47F1002A9E3601A5A74 /* RapidRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB23ADB6B852B4EADFBD6359067640 /* RapidRequest.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DFAA30F3FD25DB4173578022D7F05E19 /* RapidReadProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB4E7A9D99041F51143FF3A9D642C8 /* RapidReadProtocols.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E19BFA9433FB6247BFDA452DCDFEB912 /* RapidHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5CAF4F0393706A142BF46311D3F92 /* RapidHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED5E97807533A100F4409F3A04F0FF2A /* Rapid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D88DFA5433E8A6D2A718BD740581988 /* Rapid-dummy.m */; };
+		EE4F0279452904F5EB3C0546311384D7 /* RapidDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE9842766D9B7355716F42F216F16AD /* RapidDocument.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F09B3E989C6FDD9A199186A7BC6C7658 /* Pods-RapidDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD3290F26F3B7698748218ABF65899B /* Pods-RapidDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E1C631F544A088CB134CDC8F51EA41 /* RapidConnectionRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F9B865CFF2E195FB4E0B9CFEDB6566 /* RapidConnectionRequests.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F3BA2A155CA8E7C1483D1A2FC7128B95 /* RapidCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF08EE6DD4C9B1D88A553CC86C4462 /* RapidCache.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F6EE43E8F428C90074350A3CC67E1A93 /* RapidError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA77EECD04308DF0369D2ECFDCC4ED5 /* RapidError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE8306046BD2EA71D138015AB1DB21BA /* RapidNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32589F2444EEFBAE50228A5B5A2E9A /* RapidNetworkHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF4ED3D0C56FD046443CD60DCC88879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6536186471A042F3A0C8CAD4FCB66B27;
+			remoteInfo = Rapid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF35AE0537C1A5688226A6CBE28139 /* Rapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rapid.swift; path = Source/Rapid.swift; sourceTree = "<group>"; };
+		065C2A0B75247D7062BEB96C0044B5A4 /* RapidMutations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidMutations.swift; path = Source/RapidClasses/RapidMutations.swift; sourceTree = "<group>"; };
+		16E0075D98B6C20FCE5ECAD8F6B57E71 /* Pods-RapidDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RapidDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		174D87DBB30B014784B70B905A772021 /* Pods-RapidDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RapidDemo-resources.sh"; sourceTree = "<group>"; };
+		1B8640423E6DE04FFEF7F8BBC086AB59 /* Rapid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rapid-umbrella.h"; sourceTree = "<group>"; };
+		1F32589F2444EEFBAE50228A5B5A2E9A /* RapidNetworkHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidNetworkHandler.swift; path = Source/Networking/RapidNetworkHandler.swift; sourceTree = "<group>"; };
+		2678D2A34720B42495E9278977B41005 /* Pods-RapidDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RapidDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2817C04E173A55C2263885E7FDB14B41 /* RapidLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidLogger.swift; path = Source/Utils/RapidLogger.swift; sourceTree = "<group>"; };
+		2F817D68ED027F501B0B6AC69244F75F /* RapidSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidSocketManager.swift; path = Source/Networking/RapidSocketManager.swift; sourceTree = "<group>"; };
+		3204DA20E1612CF167D64954496EA281 /* Rapid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rapid-prefix.pch"; sourceTree = "<group>"; };
+		33B5CAF4F0393706A142BF46311D3F92 /* RapidHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidHandler.swift; path = Source/RapidHandler.swift; sourceTree = "<group>"; };
+		3D88DFA5433E8A6D2A718BD740581988 /* Rapid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rapid-dummy.m"; sourceTree = "<group>"; };
+		42C597518511B399DBE8435831CAB1FC /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/Networking/SSLSecurity.swift; sourceTree = "<group>"; };
+		46F9B865CFF2E195FB4E0B9CFEDB6566 /* RapidConnectionRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidConnectionRequests.swift; path = Source/RapidClasses/RapidConnectionRequests.swift; sourceTree = "<group>"; };
+		4BAC5D179F53802E49298FA03D4CA59F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5180C44AA8F4349BC9656565D9305BBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5205E2397637885AAB3CA7112D8B4FC8 /* RapidMutationProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidMutationProtocols.swift; path = Source/Protocols/RapidMutationProtocols.swift; sourceTree = "<group>"; };
+		55664315BE247FD6E83219FD5B66F94B /* Pods-RapidDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RapidDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5AE9842766D9B7355716F42F216F16AD /* RapidDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidDocument.swift; path = Source/RapidDocument.swift; sourceTree = "<group>"; };
+		6195D2597441D8E5583278927DCD9442 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Utils/Extensions.swift; sourceTree = "<group>"; };
+		631778EB7356A4366141016DDBC91751 /* RapidDocumentRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidDocumentRef.swift; path = Source/RapidDocumentRef.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		679E7FB3A3039E54ACC627B3772DD73D /* RapidAuthorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidAuthorization.swift; path = Source/RapidAuthorization.swift; sourceTree = "<group>"; };
+		6987E2047AC1BB1820B8E4AF148E5BC6 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/Networking/WebSocket.swift; sourceTree = "<group>"; };
+		6EAF08EE6DD4C9B1D88A553CC86C4462 /* RapidCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidCache.swift; path = Source/Utils/RapidCache.swift; sourceTree = "<group>"; };
+		7A548AEF338D87335111EC5D0104E818 /* DictionaryJSONExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryJSONExtension.swift; path = Source/Utils/DictionaryJSONExtension.swift; sourceTree = "<group>"; };
+		812F809058F8ACDC368FC9CCEA4D121E /* Pods-RapidDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RapidDemo.modulemap"; sourceTree = "<group>"; };
+		81FB4E7A9D99041F51143FF3A9D642C8 /* RapidReadProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidReadProtocols.swift; path = Source/Protocols/RapidReadProtocols.swift; sourceTree = "<group>"; };
+		86FB23ADB6B852B4EADFBD6359067640 /* RapidRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidRequest.swift; path = Source/Protocols/RapidRequest.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E189FEF9C1F87BD9A66BFBF6715C47 /* Rapid.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rapid.xcconfig; sourceTree = "<group>"; };
+		9B6703B07D234EC3AA3C4EE3368D2379 /* RapidSubscriptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidSubscriptions.swift; path = Source/RapidClasses/RapidSubscriptions.swift; sourceTree = "<group>"; };
+		ADD3290F26F3B7698748218ABF65899B /* Pods-RapidDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RapidDemo-umbrella.h"; sourceTree = "<group>"; };
+		B2746FD79C6032DA532F48CB0BFCBB74 /* RapidServerEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidServerEvents.swift; path = Source/RapidClasses/RapidServerEvents.swift; sourceTree = "<group>"; };
+		B76F9D4171941115720BE0D21902B6EC /* RapidFetches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidFetches.swift; path = Source/RapidClasses/RapidFetches.swift; sourceTree = "<group>"; };
+		B89F29AA834D0561864B19F433D85304 /* Pods_RapidDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RapidDemo.framework; path = "Pods-RapidDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C123EA08884EFB1CC9D386A26D50823A /* RapidCollectionRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidCollectionRef.swift; path = Source/RapidCollectionRef.swift; sourceTree = "<group>"; };
+		C2D398D88A3101A8B44561CD89529FF9 /* RapidSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidSerialization.swift; path = Source/RapidClasses/RapidSerialization.swift; sourceTree = "<group>"; };
+		C7FD35F99B57B5DE9400AB26C51621AA /* Pods-RapidDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RapidDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF4F2302C70C47C34FCBB3E0B8689976 /* Rapid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Rapid.modulemap; sourceTree = "<group>"; };
+		D2F495C1B33F3CB4777834B5977946C3 /* RapidQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidQuery.swift; path = Source/RapidQuery.swift; sourceTree = "<group>"; };
+		DFF4BB1A5AD580897CAB278E53E7F7BB /* Pods-RapidDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RapidDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1DA3C9E98CB6BEC4CF291A35F21411 /* RapidResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidResponse.swift; path = Source/Protocols/RapidResponse.swift; sourceTree = "<group>"; };
+		EAA77EECD04308DF0369D2ECFDCC4ED5 /* RapidError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidError.swift; path = Source/RapidError.swift; sourceTree = "<group>"; };
+		EB27110E5E102285D5CA17F78FDB8345 /* Rapid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rapid.framework; path = Rapid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5CD6D85BA823B08EB10FB8776052A9 /* Pods-RapidDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RapidDemo-dummy.m"; sourceTree = "<group>"; };
+		EF55ED23708BEAC765B3ADB07B0C4169 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Utils/Helpers.swift; sourceTree = "<group>"; };
+		F0BE3B6F826CADA971C5E61C362DE66C /* WRO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WRO.swift; path = Source/Utils/WRO.swift; sourceTree = "<group>"; };
+		F7347402292FF8C75AA63DC674A89654 /* RapidSubscriptionEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidSubscriptionEvent.swift; path = Source/RapidClasses/RapidSubscriptionEvent.swift; sourceTree = "<group>"; };
+		FA99C4322C1437526411C1EA5B75A135 /* RapidSubscriptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RapidSubscriptionHandler.swift; path = Source/RapidClasses/RapidSubscriptionHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D34164F90A9400A4592052C04D95DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035B4B759F81572F03F4FE4795B1ACD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2747D39F4CD943ACB13C489F775413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0988AFA6949AE48A8BEE9BEF8D199BAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BC44F0C1A64D5B81110F27FF2A2EE7 /* Rapid */ = {
+			isa = PBXGroup;
+			children = (
+				7A548AEF338D87335111EC5D0104E818 /* DictionaryJSONExtension.swift */,
+				6195D2597441D8E5583278927DCD9442 /* Extensions.swift */,
+				EF55ED23708BEAC765B3ADB07B0C4169 /* Helpers.swift */,
+				04EF35AE0537C1A5688226A6CBE28139 /* Rapid.swift */,
+				679E7FB3A3039E54ACC627B3772DD73D /* RapidAuthorization.swift */,
+				6EAF08EE6DD4C9B1D88A553CC86C4462 /* RapidCache.swift */,
+				C123EA08884EFB1CC9D386A26D50823A /* RapidCollectionRef.swift */,
+				46F9B865CFF2E195FB4E0B9CFEDB6566 /* RapidConnectionRequests.swift */,
+				5AE9842766D9B7355716F42F216F16AD /* RapidDocument.swift */,
+				631778EB7356A4366141016DDBC91751 /* RapidDocumentRef.swift */,
+				EAA77EECD04308DF0369D2ECFDCC4ED5 /* RapidError.swift */,
+				B76F9D4171941115720BE0D21902B6EC /* RapidFetches.swift */,
+				33B5CAF4F0393706A142BF46311D3F92 /* RapidHandler.swift */,
+				2817C04E173A55C2263885E7FDB14B41 /* RapidLogger.swift */,
+				5205E2397637885AAB3CA7112D8B4FC8 /* RapidMutationProtocols.swift */,
+				065C2A0B75247D7062BEB96C0044B5A4 /* RapidMutations.swift */,
+				1F32589F2444EEFBAE50228A5B5A2E9A /* RapidNetworkHandler.swift */,
+				D2F495C1B33F3CB4777834B5977946C3 /* RapidQuery.swift */,
+				81FB4E7A9D99041F51143FF3A9D642C8 /* RapidReadProtocols.swift */,
+				86FB23ADB6B852B4EADFBD6359067640 /* RapidRequest.swift */,
+				EA1DA3C9E98CB6BEC4CF291A35F21411 /* RapidResponse.swift */,
+				C2D398D88A3101A8B44561CD89529FF9 /* RapidSerialization.swift */,
+				B2746FD79C6032DA532F48CB0BFCBB74 /* RapidServerEvents.swift */,
+				2F817D68ED027F501B0B6AC69244F75F /* RapidSocketManager.swift */,
+				F7347402292FF8C75AA63DC674A89654 /* RapidSubscriptionEvent.swift */,
+				FA99C4322C1437526411C1EA5B75A135 /* RapidSubscriptionHandler.swift */,
+				9B6703B07D234EC3AA3C4EE3368D2379 /* RapidSubscriptions.swift */,
+				42C597518511B399DBE8435831CAB1FC /* SSLSecurity.swift */,
+				6987E2047AC1BB1820B8E4AF148E5BC6 /* WebSocket.swift */,
+				F0BE3B6F826CADA971C5E61C362DE66C /* WRO.swift */,
+				9871C9982E7F402DF02AC18215DE06D5 /* Support Files */,
+			);
+			name = Rapid;
+			path = Rapid;
+			sourceTree = "<group>";
+		};
+		5604BAB72685EE1E5C00E33D0C21E0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89F29AA834D0561864B19F433D85304 /* Pods_RapidDemo.framework */,
+				EB27110E5E102285D5CA17F78FDB8345 /* Rapid.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9BCEDE5B85C80670CB64E79424556490 /* Pods */,
+				5604BAB72685EE1E5C00E33D0C21E0C4 /* Products */,
+				93739D251F8D068237B9292D09546A85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93739D251F8D068237B9292D09546A85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				970A3FA2E9BC830841D7E43114FB15F3 /* Pods-RapidDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		970A3FA2E9BC830841D7E43114FB15F3 /* Pods-RapidDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BAC5D179F53802E49298FA03D4CA59F /* Info.plist */,
+				812F809058F8ACDC368FC9CCEA4D121E /* Pods-RapidDemo.modulemap */,
+				16E0075D98B6C20FCE5ECAD8F6B57E71 /* Pods-RapidDemo-acknowledgements.markdown */,
+				2678D2A34720B42495E9278977B41005 /* Pods-RapidDemo-acknowledgements.plist */,
+				ED5CD6D85BA823B08EB10FB8776052A9 /* Pods-RapidDemo-dummy.m */,
+				55664315BE247FD6E83219FD5B66F94B /* Pods-RapidDemo-frameworks.sh */,
+				174D87DBB30B014784B70B905A772021 /* Pods-RapidDemo-resources.sh */,
+				ADD3290F26F3B7698748218ABF65899B /* Pods-RapidDemo-umbrella.h */,
+				DFF4BB1A5AD580897CAB278E53E7F7BB /* Pods-RapidDemo.debug.xcconfig */,
+				C7FD35F99B57B5DE9400AB26C51621AA /* Pods-RapidDemo.release.xcconfig */,
+			);
+			name = "Pods-RapidDemo";
+			path = "Target Support Files/Pods-RapidDemo";
+			sourceTree = "<group>";
+		};
+		9871C9982E7F402DF02AC18215DE06D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5180C44AA8F4349BC9656565D9305BBF /* Info.plist */,
+				CF4F2302C70C47C34FCBB3E0B8689976 /* Rapid.modulemap */,
+				93E189FEF9C1F87BD9A66BFBF6715C47 /* Rapid.xcconfig */,
+				3D88DFA5433E8A6D2A718BD740581988 /* Rapid-dummy.m */,
+				3204DA20E1612CF167D64954496EA281 /* Rapid-prefix.pch */,
+				1B8640423E6DE04FFEF7F8BBC086AB59 /* Rapid-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Rapid";
+			sourceTree = "<group>";
+		};
+		9BCEDE5B85C80670CB64E79424556490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34BC44F0C1A64D5B81110F27FF2A2EE7 /* Rapid */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15913035EAFBB59F59D218972E026E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09B3E989C6FDD9A199186A7BC6C7658 /* Pods-RapidDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67F06070247B9D815C607CB62AAA89F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FB0A236379693116EB3C61FD530EFD /* Rapid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		017C217F239175EF44F3F1FB2CA6E930 /* Pods-RapidDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D3FCB0D2D5A65E99B5CAD2BD522A76 /* Build configuration list for PBXNativeTarget "Pods-RapidDemo" */;
+			buildPhases = (
+				180E5D958D42AFF8A1C5E3339FDDF157 /* Sources */,
+				CD2747D39F4CD943ACB13C489F775413 /* Frameworks */,
+				15913035EAFBB59F59D218972E026E01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519834368F947CEFD78CC479104BBC9B /* PBXTargetDependency */,
+			);
+			name = "Pods-RapidDemo";
+			productName = "Pods-RapidDemo";
+			productReference = B89F29AA834D0561864B19F433D85304 /* Pods_RapidDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6536186471A042F3A0C8CAD4FCB66B27 /* Rapid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9BD33507CEA5C88DD2FDE8D4841879 /* Build configuration list for PBXNativeTarget "Rapid" */;
+			buildPhases = (
+				29DC8A4C00D6D0D64690B5AE99DA67EF /* Sources */,
+				21D34164F90A9400A4592052C04D95DB /* Frameworks */,
+				C67F06070247B9D815C607CB62AAA89F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rapid;
+			productName = Rapid;
+			productReference = EB27110E5E102285D5CA17F78FDB8345 /* Rapid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5604BAB72685EE1E5C00E33D0C21E0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017C217F239175EF44F3F1FB2CA6E930 /* Pods-RapidDemo */,
+				6536186471A042F3A0C8CAD4FCB66B27 /* Rapid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180E5D958D42AFF8A1C5E3339FDDF157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF675991DF4EE91CE32841E0F3A7BF4E /* Pods-RapidDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DC8A4C00D6D0D64690B5AE99DA67EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E33BDD016764DD97F1FC7A2895B39CB /* DictionaryJSONExtension.swift in Sources */,
+				2B1570CA0717CE56CA1A165756D16085 /* Extensions.swift in Sources */,
+				2FD389DEE4E584FFB0A6E70F6A6B6CF9 /* Helpers.swift in Sources */,
+				ED5E97807533A100F4409F3A04F0FF2A /* Rapid-dummy.m in Sources */,
+				2AE2769F3F1DDBB61A7EB242B0583147 /* Rapid.swift in Sources */,
+				11D327AE8B5A702E771510DEFE3B9749 /* RapidAuthorization.swift in Sources */,
+				F3BA2A155CA8E7C1483D1A2FC7128B95 /* RapidCache.swift in Sources */,
+				A8458A84788D2B9CCD866AE85F70BFFB /* RapidCollectionRef.swift in Sources */,
+				F0E1C631F544A088CB134CDC8F51EA41 /* RapidConnectionRequests.swift in Sources */,
+				EE4F0279452904F5EB3C0546311384D7 /* RapidDocument.swift in Sources */,
+				69F0335607444E152FFEFA8C92BAF264 /* RapidDocumentRef.swift in Sources */,
+				F6EE43E8F428C90074350A3CC67E1A93 /* RapidError.swift in Sources */,
+				1A9393AA1AFA302222982AF5F3FF7595 /* RapidFetches.swift in Sources */,
+				E19BFA9433FB6247BFDA452DCDFEB912 /* RapidHandler.swift in Sources */,
+				B2F1FE69F4245D88C4FE2E2E362782B4 /* RapidLogger.swift in Sources */,
+				B1613B2DFE58205F84E3767880BF8ABE /* RapidMutationProtocols.swift in Sources */,
+				01DAA4777C44D9DD64ED9D4530A1C37C /* RapidMutations.swift in Sources */,
+				FE8306046BD2EA71D138015AB1DB21BA /* RapidNetworkHandler.swift in Sources */,
+				7F09CB9DB720BF513B49738E38B832DA /* RapidQuery.swift in Sources */,
+				DFAA30F3FD25DB4173578022D7F05E19 /* RapidReadProtocols.swift in Sources */,
+				CFD3E705D876D47F1002A9E3601A5A74 /* RapidRequest.swift in Sources */,
+				C5E22F37F65121EA30C8615E9243A310 /* RapidResponse.swift in Sources */,
+				1D58F2DFF078420312216B301E3E8CC2 /* RapidSerialization.swift in Sources */,
+				72BF868F596250EEF525EF69CA8A1D76 /* RapidServerEvents.swift in Sources */,
+				A948893E25372958D15B3BC05FF4C623 /* RapidSocketManager.swift in Sources */,
+				6C367CB8A541CA804E10C9B37377A1C0 /* RapidSubscriptionEvent.swift in Sources */,
+				46C13FD6673E421DA1E1B9188E386AB5 /* RapidSubscriptionHandler.swift in Sources */,
+				5D17C6E608B18A05BD8F4802B53DFB1E /* RapidSubscriptions.swift in Sources */,
+				2AF1B7AE812152F76BAD699239706FE9 /* SSLSecurity.swift in Sources */,
+				2E9BB929D5D3C2BBC817FDC356504ED3 /* WebSocket.swift in Sources */,
+				A06E3C262CB5EE091DB8E82479B4E712 /* WRO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		519834368F947CEFD78CC479104BBC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rapid;
+			target = 6536186471A042F3A0C8CAD4FCB66B27 /* Rapid */;
+			targetProxy = 8CF4ED3D0C56FD046443CD60DCC88879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3411015E81656C4E96496341B8609751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FD35F99B57B5DE9400AB26C51621AA /* Pods-RapidDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RapidDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RapidDemo/Pods-RapidDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RapidDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44C02C586105BFAC3C7D96F7C11F4608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E189FEF9C1F87BD9A66BFBF6715C47 /* Rapid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Rapid/Rapid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rapid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rapid/Rapid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Rapid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		811ACD58D251188D9FC1E77AE6C16942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF4BB1A5AD580897CAB278E53E7F7BB /* Pods-RapidDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RapidDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RapidDemo/Pods-RapidDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RapidDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DFF1963872C3E7A326F13265A8FD157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E189FEF9C1F87BD9A66BFBF6715C47 /* Rapid.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Rapid/Rapid-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rapid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rapid/Rapid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Rapid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E9BD33507CEA5C88DD2FDE8D4841879 /* Build configuration list for PBXNativeTarget "Rapid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C02C586105BFAC3C7D96F7C11F4608 /* Debug */,
+				8DFF1963872C3E7A326F13265A8FD157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D3FCB0D2D5A65E99B5CAD2BD522A76 /* Build configuration list for PBXNativeTarget "Pods-RapidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811ACD58D251188D9FC1E77AE6C16942 /* Debug */,
+				3411015E81656C4E96496341B8609751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
